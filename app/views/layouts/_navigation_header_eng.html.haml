@@ -1,0 +1,34 @@
+/ PRE LOADER
+.preloader
+  .spinner
+    %span.spinner-rotate
+/ Navigation Section
+.navbar.navbar-fixed-top.custom-navbar{:role => "navigation"}
+  .container
+    / navbar header
+    .navbar-header
+      %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse"}
+        %span.icon.icon-bar
+        %span.icon.icon-bar
+        %span.icon.icon-bar
+      %a.navbar-brand{:href => "#about"} KEIICHI SANO
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          = link_to "#home", class: ".smoothScroll" do
+            Home
+        %li
+          = link_to "#experience", class: ".smoothScroll" do
+            Experiences
+        %li
+          = link_to "#quotes", class: ".smoothScroll" do
+            Certification
+        %li
+          = link_to "#" do
+            Portfolio-link
+        %li
+          = link_to "#contact", class: ".smoothScroll" do
+            Contact
+        %li
+          = link_to "#" do 
+            日本語
