@@ -406,3 +406,20 @@ html{
     Experience section              
 -----------------------------------------*/
 
+#experience .experience-img {
+  background: url('/myimage01.png') no-repeat;
+}
+
+#experience .media-heading {
+  margin-bottom: 0px;
+}
+
+#experience .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#experience small {
+  color: #633;
+  font-weight: bold;
+}
