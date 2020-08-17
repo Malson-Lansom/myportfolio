@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get  'welcomes/index'
+  resources :welcomes
   root 'welcomes#index'
 end

@@ -49,6 +49,10 @@ test:
 #
 production:
   <<: *default
-  database: myportfolio_production
-  username: myportfolio
-  password: <%= ENV['MYPORTFOLIO_DATABASE_PASSWORD'] %>
+  # heroku用設定
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  # database: myportfolio_production
+  # username: myportfolio
+  # password: <%= ENV['MYPORTFOLIO_DATABASE_PASSWORD'] %>
