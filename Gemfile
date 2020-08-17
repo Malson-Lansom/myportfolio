@@ -65,3 +65,7 @@ gem 'jquery-rails'
 gem 'fog-aws'
 # 動作確認用
 gem 'pry-rails'
+# heroku デプロイ用データベース設定
+group :production do
+  gem 'pg'
+end
