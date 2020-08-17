@@ -1,0 +1,37 @@
+/ Contact Section
+%section#contact.parallax-section
+  .container
+    .row
+      .col-md-6.col-sm-12
+        .contact-form
+          .wow.fadeInUp.section-title{"data-wow-delay" => "0.2s"}
+            %h1.color-white Contact Form
+            %p.color-white min db
+          #contact-form
+            %form{:action => "#template-mo", :method => "post"}
+              .wow.fadeInUp{"data-wow-delay" => "1s"}
+                %input#fullname.form-control{:name => "fullname", :placeholder => "Your Name", :type => "text"}/
+              .wow.fadeInUp{"data-wow-delay" => "1.2s"}
+                %input#email.form-control{:name => "email", :placeholder => "Your Email", :type => "email"}/
+              .wow.fadeInUp{"data-wow-delay" => "1.4s"}
+                %textarea#message.form-control{:name => "message", :placeholder => "Write your message...", :rows => "5"}
+              .wow.fadeInUp.col-md-6.col-sm-8{"data-wow-delay" => "1.6s"}
+                %input#submit.form-control{:name => "submit", :type => "submit", :value => "Send"}/
+      .col-md-3.col-sm-6
+        .background-image.contact-img
+      .bg-dark.col-md-3.col-sm-6
+        .contact-thumb
+          .wow.fadeInUp.contact-info{"data-wow-delay" => "0.6s"}
+            %h3.color-white Visit my office
+            %p 
+          .wow.fadeInUp.contact-info{"data-wow-delay" => "0.8s"}
+            %h3.color-white Contact.
+            %p
+              %i.fa.fa-phone
+              非公開
+            %p
+              %i.fa.fa-envelope-o
+              %a{:href => "mailto:salmon.55.lansom.129@gmail.com"} salmon.55.lansom.129@gmail.com
+            %p
+              %i.fa.fa-globe
+              %a{:href => "#"} ウェブサイト

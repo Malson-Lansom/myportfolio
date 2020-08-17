@@ -1,0 +1,16 @@
+/ Footer Section
+%footer
+  .container
+    .row
+      .col-md-12.col-sm-12
+        .contact-email.wow.fadeInUp{"data-wow-delay" => "1s"}
+          Contact:&emsp;
+          = mail_to "salmon.55.lansom.129@gmail.com" do 
+            %i.fas.fa-envelope salmon.55.lansom.129@gmail.com
+        %ul.wow.fadeInUp.social-icon{"data-wow-delay" => "2s"}
+          %li
+            = link_to "#" do
+              %i.fab.fa-facebook
+          %li
+            = link_to "#" do
+              %i.fab.fa-twitter
