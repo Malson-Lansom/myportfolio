@@ -9,4 +9,7 @@ class WelcomesController < ApplicationController
   def homepage_jap
   end
   
+  def fireworks
+  end
+
 end
