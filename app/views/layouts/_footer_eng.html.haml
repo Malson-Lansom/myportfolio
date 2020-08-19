@@ -9,8 +9,12 @@
             %i.fas.fa-envelope salmon.55.lansom.129@gmail.com
         %ul.wow.fadeInUp.social-icon{"data-wow-delay" => "2s"}
           %li
-            = link_to "#" do
-              %i.fab.fa-facebook
+            = link_to "https://github.com/Malson-Lansom?tab=repositories", :onclick => "window.open(this.href,'hoge', 'height=400, width=800');return false;" do
+              %i.fab.fa-github
           %li
-            = link_to "#" do
+            = link_to "https://twitter.com/KEIICHI75858480", :onclick => "window.open(this.href,'hoge', 'height=400, width=800');return false;" do
               %i.fab.fa-twitter
+          %li
+            = link_to "https://malson.hatenablog.com/", :onclick => "window.open(this.href,'hoge', 'height=400, width=800');return false;" do
+              %i.fas.fa-blog
+              -# = image_tag "/hatenablog_icon.png", width:"18px", alt: "はてなBLOG"
