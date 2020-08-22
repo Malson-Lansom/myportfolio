@@ -1,6 +1,6 @@
 # README
-herokuへデプロイ　　
-BASIC認証を設定　　
+herokuへデプロイ  
+BASIC認証を設定  　
 - user: K-SANO
 - pass: 7422
 
