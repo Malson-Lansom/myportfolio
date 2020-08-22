@@ -4,7 +4,7 @@ BASIC認証を設定
 - user: K-SANO
 - pass: 7422
   
-![画像](https://user-images.githubusercontent.com/61781906/90955528-26d81700-e4b9-11ea-858d-7e0611955fe8.gif)
+![画像](https://user-images.githubusercontent.com/61781906/90955591-b4b40200-e4b9-11ea-89f2-046d1327bb9d.gif)
 
 ## CONCEPT
 - 自身の人格や背景も添えた視覚的な履歴書として
