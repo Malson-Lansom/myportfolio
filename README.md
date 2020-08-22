@@ -1,7 +1,6 @@
 # README
-herokuへデプロイし、下リンクよりご覧いただけます  
-[リンク](https://myportfolio-myp817.herokuapp.com/)  
-BASIC認証を設定  　
+herokuへデプロイし、[こちら](https://myportfolio-myp817.herokuapp.com/) よりご覧いただけます  
+BASIC認証を設定  
 - user: K-SANO
 - pass: 7422
 
